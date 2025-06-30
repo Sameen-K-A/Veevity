@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="block sm:hidden">
           <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
             <DropdownMenuTrigger asChild>
-              <div className="p-3 cursor-pointer rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm hover:bg-white/10 transition-colors duration-600 w-fit">
+              <div className="p-3 cursor-pointer rounded-full hover:bg-clip-padding hover:backdrop-filter hover:backdrop-blur-sm hover:bg-white/10 transition-colors duration-600 w-fit">
                 <DropdownMenuTrigger asChild>
                   <AnimatePresence mode="wait">
                     {isOpen ? (
