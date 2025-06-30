@@ -22,7 +22,6 @@ export function TestimonialCard() {
           the next level!&quot;
         </blockquote>
 
-
         <div className="flex items-center space-x-3 pt-2">
           <div className="w-8 h-8 bg-muted rounded-full flex items-center justify-center">
             <span className="text-sm font-medium">N</span>
