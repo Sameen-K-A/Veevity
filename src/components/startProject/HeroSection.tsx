@@ -2,7 +2,11 @@ import { ChevronsRightIcon } from "lucide-react";
 import { ShinyButton } from "../magicui/shiny-button";
 import FadeInOnView from "../others/animation/FadeIn";
 
-export default function HeroSection() {
+interface IHeroSectionProps {
+  scrollToCalendar: () => void;
+};
+
+export default function HeroSection({ scrollToCalendar }: IHeroSectionProps) {
   return (
     <FadeInOnView>
       <div className="relative min-h-screen w-full flex items-center justify-center gradient-bg-1 overflow-hidden">
@@ -26,7 +30,7 @@ export default function HeroSection() {
 
           <span className="text-muted-foreground text-center">We turn your MVP into a launch-ready, winning product.</span>
 
-          <ShinyButton className="w-fit px-8 py-3 mt-5 text-sm md:text-lg">Schedule your call &nbsp;<ChevronsRightIcon /></ShinyButton>
+          <ShinyButton className="w-fit px-8 py-3 mt-5 text-sm md:text-lg" onClick={scrollToCalendar}>Schedule your call &nbsp;<ChevronsRightIcon /></ShinyButton>
         </div>
       </div>
     </FadeInOnView>
