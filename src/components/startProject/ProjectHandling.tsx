@@ -2,7 +2,11 @@ import FadeInOnView from "../others/animation/FadeIn";
 import HandleCard from "../startProject/HandleCard";
 import { projectHandleSteps } from "@/constants/projectHandleSteps";
 
-export function ProjectHandling() {
+interface IProjectHandlingProps {
+  scrollToDescription: (id: number) => void;
+};
+
+export function ProjectHandling({ scrollToDescription }: IProjectHandlingProps) {
   return (
     <section className="w-full gradient-bg-3">
       <div className="max-w-6xl mx-auto p-4 py-20">
@@ -16,6 +20,7 @@ export function ProjectHandling() {
                 id={step.id}
                 heading={step.heading}
                 sub_heading={step.sub_heading}
+                onLearnMore={scrollToDescription}
               />
             </FadeInOnView>
           ))}

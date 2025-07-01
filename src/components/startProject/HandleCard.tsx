@@ -6,9 +6,10 @@ interface IStepProps {
   id: number
   heading: string;
   sub_heading: string;
+  onLearnMore: (id: number) => void;
 }
 
-export default function HandleCard({ id, heading, sub_heading }: IStepProps) {
+export default function HandleCard({ id, heading, sub_heading, onLearnMore }: IStepProps) {
   return (
     <div className="relative p-4 sm:p-6 rounded-2xl shadow h-full flex flex-col transition-all duration-300 hover:scale-[1.03] hover:shadow-lg">
       <ShineBorder shineColor={["#A07CFE90"]} />
@@ -20,7 +21,7 @@ export default function HandleCard({ id, heading, sub_heading }: IStepProps) {
         <p className="text-muted-foreground text-xs sm:text-sm">{sub_heading}</p>
       </div>
       <div className="mt-4">
-        <ShinyButton className="text-xs">Learn more <ChevronRight size={13} className="pt-0.5" /></ShinyButton>
+        <ShinyButton className="text-xs" onClick={() => onLearnMore(id)}>Learn more <ChevronRight size={13} className="pt-0.5" /></ShinyButton>
       </div>
     </div>
   );

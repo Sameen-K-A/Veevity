@@ -249,3 +249,9 @@ body {
   background: transparent;
   background: radial-gradient(circle, rgba(0, 232, 240, 0) 40%, rgba(176, 0, 240, 1));
 }
+
+.gradient-bg-5 {
+  background-color: hsla(0, 0%, 100%, 0);
+  background-image:
+    radial-gradient(at 100% 50%, hsla(272, 100%, 50%, 0.24) 0px, transparent 50%);
+}
