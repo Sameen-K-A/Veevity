@@ -35,12 +35,12 @@ export const ShinyButton = React.forwardRef<HTMLButtonElement, ShinyButtonProps>
     return (
       <motion.button
         ref={ref}
-        className={cn("relative cursor-pointer rounded-full px-6 py-2 font-medium backdrop-blur-xl border transition-shadow duration-300 ease-in-out hover:shadow dark:bg-[radial-gradient(circle_at_50%_0%,var(--primary)/10%_0%,transparent_60%)] dark:hover:shadow-[0_0_20px_var(--primary)/10%]", className,)}
+        className={cn("relative cursor-pointer px-6 py-2 font-medium backdrop-blur-xl transition-shadow duration-300 ease-in-out hover:shadow dark:bg-[radial-gradient(circle_at_50%_0%,var(--primary)/10%_0%,transparent_60%)] dark:hover:shadow-[0_0_20px_var(--primary)/10%]", className,)}
         {...animationProps}
         {...props}
       >
         <span
-          className="relative flex items-center size-full text-xs tracking-wide font-medium dark:text-[rgb(255,255,255,90%)]"
+          className="relative flex items-center size-full tracking-wide font-medium dark:text-[rgb(255,255,255,90%)]"
           style={{
             maskImage: "linear-gradient(-75deg,var(--primary) calc(var(--x) + 20%),transparent calc(var(--x) + 30%),var(--primary) calc(var(--x) + 100%))",
           }}
@@ -53,7 +53,7 @@ export const ShinyButton = React.forwardRef<HTMLButtonElement, ShinyButtonProps>
             WebkitMask: "linear-gradient(rgb(0,0,0), rgb(0,0,0)) content-box exclude,linear-gradient(rgb(0,0,0), rgb(0,0,0))",
             backgroundImage: "linear-gradient(-75deg,var(--primary)/10% calc(var(--x)+20%),var(--primary)/50% calc(var(--x)+25%),var(--primary)/10% calc(var(--x)+100%))",
           }}
-          className="absolute inset-0 z-10 block rounded-[inherit] p-px"
+          className="absolute inset-0 z-10 block rounded-full border border-white/20 p-px"
         />
       </motion.button>
     )

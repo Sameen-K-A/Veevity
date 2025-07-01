@@ -16,7 +16,7 @@ export const projectHandleSteps = [
     description: "In this phase our developers bring the design to life using modern web frameworks. We build the site step-by-step and keep you involved the whole way. You’ll see progress in regular demos or updates, and we welcome your feedback at every step. This iterative approach (similar to agile sprints) ensures nothing is a surprise – we stay aligned with your goals and can quickly adapt to any changes. By working together closely, we deliver a fast, flexible website that meets your vision and expectations."
   }, {
     id: 4,
-    heading: "Launch & Support",
+    heading: "Launch",
     sub_heading: "Go live confidently with ongoing maintenance.",
     description: "Finally, we thoroughly test the site so everything works smoothly on all devices. When it’s ready, we make the website live. But our work doesn’t stop at launch: we provide ongoing support and maintenance so your site stays up-to-date and reliable. We monitor performance, apply updates, and troubleshoot any issues, giving you peace of mind that we’ll be here to help your site grow with your business."
   },

@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { Marquee } from "@/components/magicui/marquee";
 import { FC } from "react";
 import { techStack } from "@/constants/techstack";
+import FadeInOnView from "../others/animation/FadeIn";
 
 
 const TechCard = ({ icon: Icon, name }: { icon: FC<{ size?: number }>; name: string }) => {
@@ -25,14 +26,16 @@ const TechCard = ({ icon: Icon, name }: { icon: FC<{ size?: number }>; name: str
 
 export function TechnologyMarqee() {
   return (
-    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-10">
-      <Marquee className="[--duration:25s]">
-        {techStack.map((tech) => (
-          <TechCard key={tech.name} icon={tech.icon} name={tech.name} />
-        ))}
-      </Marquee>
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
-    </div>
+    <FadeInOnView>
+      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-10">
+        <Marquee className="[--duration:25s]">
+          {techStack.map((tech) => (
+            <TechCard key={tech.name} icon={tech.icon} name={tech.name} />
+          ))}
+        </Marquee>
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-background"></div>
+      </div>
+    </FadeInOnView>
   );
-}
+};
