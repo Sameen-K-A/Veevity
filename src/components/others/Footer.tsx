@@ -1,8 +1,13 @@
+'use client'
+
 import Link from "next/link";
 import { FaInstagram, FaFacebook, FaYoutube, FaTwitter } from 'react-icons/fa';
 import FadeInOnView from "./animation/FadeIn";
+import { useRouter } from "next/navigation";
 
 export default function Footer() {
+  const router = useRouter();
+
   return (
     <FadeInOnView>
       <footer className="max-w-6xl mx-auto p-4 py-15">
@@ -34,9 +39,9 @@ export default function Footer() {
             <div className="space-y-4">
               <h3 className="text-white font-semibold text-sm px-4">Company</h3>
               <div className="space-y-3">
-                <Link href="#" className="block text-gray-400 text-xs transition-all duration-200 px-4 py-2 hover:text-white hover:border-l-4 hover:border-cyan-400 hover:bg-gradient-to-r hover:from-cyan-400/30 hover:to-transparent rounded-lg">
+                <span onClick={() => router.push("/about-us")} className="block text-gray-400 text-xs transition-all duration-200 px-4 py-2 hover:text-white hover:border-l-4 hover:border-cyan-400 hover:bg-gradient-to-r hover:from-cyan-400/30 hover:to-transparent rounded-lg">
                   About Us
-                </Link>
+                </span>
                 <Link href="#" className="block text-gray-400 text-xs transition-all duration-200 px-4 py-2 hover:text-white hover:border-l-4 hover:border-cyan-400 hover:bg-gradient-to-r hover:from-cyan-400/30 hover:to-transparent rounded-lg">
                   Contact Us
                 </Link>
