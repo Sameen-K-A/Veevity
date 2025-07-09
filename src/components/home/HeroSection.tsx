@@ -9,18 +9,16 @@ export default function HeroSection() {
   const router = useRouter();
 
   return (
-    <FadeInOnView>
-
-      <section className="min-h-screen w-full flex items-center gradient-bg-1 mt-5">
-        <div className="px-5 sm:px-8 md:px-12 lg:px-15 flex flex-col">
-          <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">You&rsquo;ll share your</span>
-          <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">vision.</span>
-          <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">We&rsquo;ll make it</span>
-          <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">real.</span>
-          <div className="w-fit flex flex-col gap-1">
-            <span className="text-muted-foreground mt-10">Building your digital success side by side.</span>
+    <FadeInOnView duration={3}>
+      <section className="min-h-screen w-full flex items-center justify-center px-5 sm:px-8 md:px-12 lg:px-15">
+        <div className="absolute w-full z-1 bottom-0 bg-gradient-to-t from-black to-transparent">
+          <div className="flex flex-col items-center pb-10">
+            <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">You&rsquo;ll share your</span>
+            <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">vision.</span>
+            <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">We&rsquo;ll make it</span>
+            <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">real.</span>
             <RainbowButton
-              className="rounded-full py-6 text-white flex items-center justify-center"
+              className="rounded-full py-6 min-w-xs mt-5 text-white flex items-center justify-center"
               onClick={() => router.push("/start-project")}
             >
               Start a project <MdKeyboardArrowRight className="mt-0.5" />

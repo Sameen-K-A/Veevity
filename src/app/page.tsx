@@ -1,11 +1,15 @@
 import { ClientTestimonials } from "@/components/home/ClientTestimonials";
 import HeroSection from "@/components/home/HeroSection";
 import { TechnologyMarqee } from "@/components/home/TechnologyMarqee";
+import Nextbot from "@/components/spline/NextBot";
 
 export default function Home() {
   return (
     <div className="w-full min-h-screen">
-      <HeroSection />
+      <div className="relative">
+        <HeroSection />
+        <Nextbot />
+      </div>
       <TechnologyMarqee />
       <ClientTestimonials />
       <div className="w-full h-[0.5px] bg-gradient-to-r from-transparent via-white/30 to-transparent" />
