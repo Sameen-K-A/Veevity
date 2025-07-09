@@ -28,7 +28,8 @@ export default function Navbar() {
             </div>
             <div
               onClick={() => router.push("/about-us")}
-              className="py-3 px-5 cursor-pointer rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-black/20 hover:bg-white/10 transition-colors duration-600 w-fit">
+              className="py-3 px-5 cursor-pointer rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-black/20 hover:bg-white/10 transition-colors duration-600 w-fit"
+            >
               About Us
             </div>
             <RainbowButton
@@ -75,7 +76,10 @@ export default function Navbar() {
               <DropdownMenuItem className="focus:bg-muted/50 rounded-3xl overflow-hidden focus:text-white p-3 cursor-pointer">
                 Projects
               </DropdownMenuItem>
-              <DropdownMenuItem className="focus:bg-muted/50 rounded-3xl focus:text-white p-3 cursor-pointer">
+              <DropdownMenuItem
+                onClick={() => router.push("/about-us")}
+                className="focus:bg-muted/50 rounded-3xl focus:text-white p-3 cursor-pointer"
+              >
                 About Us
               </DropdownMenuItem>
               <DropdownMenuItem className="p-0 mt-1 rounded-lg overflow-hidden cursor-pointer focus:bg-transparent">
