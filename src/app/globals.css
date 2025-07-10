@@ -269,3 +269,12 @@ body {
 .moon-font {
   font-family: 'Moon Walk', sans-serif;
 }
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}

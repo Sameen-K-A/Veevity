@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/others/Navbar";
 import Footer from "@/components/others/Footer";
+import Chatbot from "@/components/chat/Chat";
 
 export const metadata: Metadata = {
   title: "Veevity",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <Chatbot />
         <Footer />
       </body>
     </html>

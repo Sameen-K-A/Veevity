@@ -12,7 +12,7 @@ export default function Navbar() {
   const router = useRouter();
 
   return (
-    <nav className="fixed top-0 z-10 w-screen py-10 px-5">
+    <nav className="fixed top-0 z-50 w-screen py-10 px-5">
       <div className="max-w-4xl navbar-border mx-auto rounded-full p-2 flex items-center justify-between h-full w-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-black/40">
         <span
           className="p-3 pl-4 moon-font cursor-pointer whitespace-pre-wrap bg-gradient-to-b from-white to-gray-500 bg-clip-text text-center text-xl font-bold leading-none text-transparent"
