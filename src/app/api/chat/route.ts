@@ -5,12 +5,12 @@ import faqsData from "@/constants/faqs.json";
 export async function POST(req: NextRequest) {
   try {
     const { message } = await req.json();
-    const CHATBOT_APIKEY = process.env.NEXT_PUBLIC_CHATBOT_APIKEY as string;
-    if (!CHATBOT_APIKEY) {
+    const apiKey = process.env.CHATBOT_APIKEY as string;
+    if (!apiKey) {
       return NextResponse.json({ error: 'Gemini API Key not configured.' }, { status: 500 });
     };
 
-    const ai = new GoogleGenerativeAI(CHATBOT_APIKEY);
+    const ai = new GoogleGenerativeAI(apiKey);
     const ai_model = ai.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     let faqContext = "Here are some FAQs:\n\n";
