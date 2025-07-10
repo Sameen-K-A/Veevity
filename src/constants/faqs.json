@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What services does Veevity offer?",
+    "answer": "Veevity specializes in a range of digital solutions including SaaS development, web development, professional website design, mobile application development, Minimum Viable Product (MVP) creation, AI chatbot integration, and comprehensive SEO services."
+  },
+  {
+    "question": "Can Veevity develop custom SaaS solutions for my business?",
+    "answer": "Yes, absolutely! We design and develop custom Software as a Service (SaaS) platforms tailored to your specific business needs, helping you streamline operations, enhance customer experience, and scale effectively."
+  },
+  {
+    "question": "What is the difference between web development and website services?",
+    "answer": "Web development refers to the complex coding and functionality behind web applications (like custom tools or platforms), while website services typically involve creating informational or e-commerce websites with a focus on design, content, and user experience. Veevity excels at both."
+  },
+  {
+    "question": "Do you develop mobile applications for both iOS and Android?",
+    "answer": "Yes, Veevity develops high-quality native mobile applications for both iOS (Apple) and Android platforms, ensuring a broad reach for your target audience. We also offer cross-platform solutions."
+  },
+  {
+    "question": "What is an MVP (Minimum Viable Product) and how can Veevity help with it?",
+    "answer": "An MVP (Minimum Viable Product) is the version of a new product with just enough features to satisfy early adopters and provide feedback for future product development. Veevity helps businesses quickly launch MVPs to validate their ideas, gather user insights, and iterate efficiently."
+  },
+  {
+    "question": "How can an AI chatbot benefit my business, and can Veevity create one for me?",
+    "answer": "An AI chatbot can enhance customer support, automate lead generation, provide instant answers to FAQs, and improve user engagement 24/7. Veevity specializes in developing custom AI chatbots tailored to your business's specific needs, like the one we're building now!"
+  },
+  {
+    "question": "What kind of SEO services does Veevity provide?",
+    "answer": "Veevity offers comprehensive Search Engine Optimization (SEO) services designed to improve your website's visibility on search engines. This includes on-page SEO, off-page SEO, technical SEO audits, keyword research, content optimization, and local SEO strategies to drive organic traffic."
+  },
+  {
+    "question": "How long does it typically take to develop a custom website or mobile app?",
+    "answer": "The timeline varies greatly depending on the complexity, features, and specific requirements of the project. We work closely with our clients to define project scope and provide realistic timelines during the initial consultation phase."
+  },
+  {
+    "question": "What is Veevity's process for starting a new project?",
+    "answer": "Our process typically begins with an initial consultation to understand your vision and requirements. This is followed by detailed planning, design, development, rigorous testing, and finally, deployment and ongoing support. We ensure transparent communication at every stage."
+  },
+  {
+    "question": "How can I get a quote for a project with Veevity?",
+    "answer": "You can request a free quote by visiting the 'Contact Us' section on our website, filling out our inquiry form. Please provide as much detail as possible about your project for an accurate estimate."
+  }
+]
