@@ -10,7 +10,7 @@ export default function Services() {
   const router = useRouter();
 
   return (
-    <section className="px-4 my-20">
+    <section className="px-4 my-20 gradient-bg-2">
       <div className="max-w-7xl mx-auto">
         <FadeInOnView>
           <div className="text-center mb-16">

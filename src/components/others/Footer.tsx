@@ -12,7 +12,7 @@ export default function Footer() {
     <FadeInOnView>
       <footer className="max-w-6xl mx-auto p-4 py-15">
         <div className="flex flex-col-reverse sm:flex-row gap-5 justify-between items-center">
-          <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-t from-white to-gray-300/80 bg-clip-text text-xl sm:text-3xl ml-2 font-bold leading-none text-transparent">
+          <span className="pointer-events-none moon-font whitespace-pre-wrap bg-gradient-to-b from-white to-gray-500 bg-clip-text text-xl sm:text-3xl ml-2 font-bold leading-none text-transparent">
             Veevity
           </span>
 

@@ -128,9 +128,17 @@
   }
 }
 
+@font-face {
+  font-family: 'DM Sans';
+  src: url('/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   padding: 0;
   margin: 0;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .dark {
@@ -249,4 +257,15 @@ body {
   background-color: hsla(0, 0%, 100%, 0);
   background-image:
     radial-gradient(at 100% 50%, hsla(272, 100%, 50%, 0.24) 0px, transparent 50%);
+}
+
+@font-face {
+  font-family: 'Moon Walk';
+  src: url('/fonts/Moon Walk.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.moon-font {
+  font-family: 'Moon Walk', sans-serif;
 }
