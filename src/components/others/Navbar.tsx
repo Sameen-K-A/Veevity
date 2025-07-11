@@ -23,7 +23,10 @@ export default function Navbar() {
 
         <div className="hidden sm:block">
           <div className="flex items-center gap-1">
-            <div className="py-3 px-5 cursor-pointer rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-black/20 hover:bg-white/10 transition-colors duration-600 w-fit">
+            <div
+              className="py-3 px-5 cursor-pointer rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-black/20 hover:bg-white/10 transition-colors duration-600 w-fit"
+              onClick={() => router.push("/projects")}
+            >
               Projects
             </div>
             <div
@@ -73,7 +76,10 @@ export default function Navbar() {
               </div>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="mr-4 mt-2 w-56 rounded-3xl bg-black/70 backdrop-blur-sm border border-white/10">
-              <DropdownMenuItem className="focus:bg-muted/50 rounded-3xl overflow-hidden focus:text-white p-3 cursor-pointer">
+              <DropdownMenuItem
+                className="focus:bg-muted/50 rounded-3xl overflow-hidden focus:text-white p-3 cursor-pointer"
+                onClick={() => router.push("/projects")}
+              >
                 Projects
               </DropdownMenuItem>
               <DropdownMenuItem

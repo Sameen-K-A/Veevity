@@ -16,7 +16,7 @@ export function DefaultPrompts({ sendMessage }: IDefaultPromptsProps) {
         <span
           key={index}
           onClick={() => sendMessage(q)}
-          className="p-1 px-2 border rounded-2xl text-sm cursor-pointer hover:bg-black/30 transition-colors duration-300">
+          className="p-2 py-3 border rounded-2xl text-sm cursor-pointer hover:bg-black/30 transition-colors duration-300">
           {q}
         </span>
       ))}
