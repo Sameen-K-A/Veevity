@@ -16,7 +16,7 @@ export default function ProjectsHero() {
           </div>
 
           <span className="text-muted-foreground">
-            Explore Veevity&apos;s cutting-edge SaaS products that are transforming industries and solving real-world problems.
+            View our creations, from budding ventures to market giants.
           </span>
 
           <button
