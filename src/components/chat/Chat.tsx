@@ -1,6 +1,6 @@
 'use client'
 
-import { Send, X } from "lucide-react"
+import { SendHorizonal, X } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover"
 import { motion, AnimatePresence } from "framer-motion";
@@ -16,6 +16,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState<IMessage[]>([]);
   const [userInput, setUserInput] = useState("");
   const bottomRef = useRef<HTMLDivElement | null>(null)
+  const inputRef = useRef<HTMLInputElement | null>(null)
 
   const sendMessage = async (defaultPrompt: string = "") => {
     try {
@@ -43,6 +44,7 @@ export default function Chatbot() {
     } catch (error) {
       console.error(error)
     } finally {
+      inputRef.current?.focus();
       setIsGenerating(false);
     };
   };
@@ -89,7 +91,7 @@ export default function Chatbot() {
       </PopoverTrigger>
 
       <PopoverContent
-        className="w-80 h-fit p-1 mb-2 shadow-2xl border bg-gradient-to-r from-muted via-black to-muted rounded-2xl overflow-hidden"
+        className="w-90 h-fit p-1 mb-2 shadow-2xl border bg-gradient-to-r from-muted via-black to-muted rounded-2xl overflow-hidden"
         align="end"
         side="top"
       >
@@ -103,31 +105,36 @@ export default function Chatbot() {
           messages={messages}
           bottomRef={bottomRef}
           sendMessage={sendMessage}
+          isGenerating={isGenerating}
         />
 
-        <div className="flex items-center space-x-3 pt-3">
+        <div className="flex items-center space-x-2 pt-3">
           <input
             placeholder="Ask your question?"
             autoFocus
+            ref={inputRef}
             readOnly={isGenerating}
             value={userInput}
             onChange={(e) => setUserInput(e.target.value)}
             className="flex-1 rounded-2xl h-9 outline-1 focus:outline-1 px-3 focus:border-purple-500 focus:ring-purple-500 placeholder:text-sm"
           />
-          {!isGenerating ? (
-            <button
-              onClick={() => sendMessage()}
-              className="flex justify-center text-white bg-gradient-to-r from-[#47b6ff] to-[#007acc] items-center bottom-8 right-8 h-9 w-9 cursor-pointer rounded-full disabled:opacity-60 disabled:cursor-not-allowed"
-              disabled={isGenerating || !userInput.trim().length}
-            >
-              <Send className="h-4 w-4" />
-            </button>
-          ) : (
-            <span className="relative flex size-5 mr-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#47b6ff] opacity-75"></span>
-              <span className="relative inline-flex size-5 rounded-full bg-[#47b6ff]"></span>
-            </span>
-          )}
+
+          <div className="w-9 flex justify-center items-center">
+            {!isGenerating ? (
+              <button
+                onClick={() => sendMessage()}
+                disabled={isGenerating || !userInput.trim().length}
+                className="flex items-center justify-center cursor-pointer h-9 w-9 rounded-full bg-gradient-to-r from-[#47b6ff] to-[#007acc] text-white disabled:opacity-60 disabled:cursor-not-allowed"
+              >
+                <SendHorizonal className="h-4 w-4 m-0 p-0" />
+              </button>
+            ) : (
+              <span className="relative flex size-5">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#47b6ff] opacity-75"></span>
+                <span className="relative inline-flex size-5 rounded-full bg-[#47b6ff]"></span>
+              </span>
+            )}
+          </div>
         </div>
       </PopoverContent>
     </Popover>

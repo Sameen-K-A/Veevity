@@ -270,11 +270,12 @@ body {
   font-family: 'Moon Walk', sans-serif;
 }
 
-.hide-scrollbar {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
 
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4b4b4b;
+  border-radius: 50px;
 }

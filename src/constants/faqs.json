@@ -1,42 +1,62 @@
 [
   {
-    "question": "What services does Veevity offer?",
-    "answer": "Veevity specializes in a range of digital solutions including SaaS development, web development, professional website design, mobile application development, Minimum Viable Product (MVP) creation, AI chatbot integration, and comprehensive SEO services."
+    "question": "Hello, Hy, Hi, hlo",
+    "answer": "Hi there! 👋 Welcome to Veevity. I'm your AI assistant here to help you learn about our SaaS, web/mobile apps, and AI solutions. How can I assist you today?"
   },
   {
-    "question": "Can Veevity develop custom SaaS solutions for my business?",
-    "answer": "Yes, absolutely! We design and develop custom Software as a Service (SaaS) platforms tailored to your specific business needs, helping you streamline operations, enhance customer experience, and scale effectively."
+    "question": "Good morning",
+    "answer": "Good morning! ☀️ Ready to explore how Veevity can transform your business digitally? Ask me anything!"
   },
   {
-    "question": "What is the difference between web development and website services?",
-    "answer": "Web development refers to the complex coding and functionality behind web applications (like custom tools or platforms), while website services typically involve creating informational or e-commerce websites with a focus on design, content, and user experience. Veevity excels at both."
+    "question": "What does Veevity do?",
+    "answer": "We build **custom digital solutions** including SaaS platforms, web/mobile apps, AI chatbots, and MVPs. Unlike typical agencies, we also create our own products—so we deeply understand founders' pain points."
   },
   {
-    "question": "Do you develop mobile applications for both iOS and Android?",
-    "answer": "Yes, Veevity develops high-quality native mobile applications for both iOS (Apple) and Android platforms, ensuring a broad reach for your target audience. We also offer cross-platform solutions."
+    "question": "What industries do you serve?",
+    "answer": "We work **across all sectors**—startups, e-commerce, healthcare, fintech, and more. Our solutions adapt to your industry needs."
   },
   {
-    "question": "What is an MVP (Minimum Viable Product) and how can Veevity help with it?",
-    "answer": "An MVP (Minimum Viable Product) is the version of a new product with just enough features to satisfy early adopters and provide feedback for future product development. Veevity helps businesses quickly launch MVPs to validate their ideas, gather user insights, and iterate efficiently."
+    "question": "What services do you offer?",
+    "answer": "Our core services:\n\n- **Custom SaaS Development** (B2B/B2C)\n- **Web Apps** (MERN/Python)\n- **Mobile Apps** (Flutter for iOS/Android)\n- **AI Chatbots** (FAQ-focused like me!)\n- **SEO** (Technical + Content)\n- **MVP Development** (Agile, rapid launch)"
   },
   {
-    "question": "How can an AI chatbot benefit my business, and can Veevity create one for me?",
-    "answer": "An AI chatbot can enhance customer support, automate lead generation, provide instant answers to FAQs, and improve user engagement 24/7. Veevity specializes in developing custom AI chatbots tailored to your business's specific needs, like the one we're building now!"
+    "question": "Do you build e-commerce websites?",
+    "answer": "Yes! We develop **custom e-commerce platforms** with payment gateways (Stripe/PayPal), inventory management, and SEO optimization—no template limitations."
   },
   {
-    "question": "What kind of SEO services does Veevity provide?",
-    "answer": "Veevity offers comprehensive Search Engine Optimization (SEO) services designed to improve your website's visibility on search engines. This includes on-page SEO, off-page SEO, technical SEO audits, keyword research, content optimization, and local SEO strategies to drive organic traffic."
+    "question": "What tech stack do you use?",
+    "answer": "**Web**: MERN (MongoDB, Express, React, Node.js) + Python/Django\n**Mobile**: Flutter (cross-platform)\n**AI**: Gemini/OpenAI for chatbots\n**Cloud**: AWS/Azure deployments"
   },
   {
-    "question": "How long does it typically take to develop a custom website or mobile app?",
-    "answer": "The timeline varies greatly depending on the complexity, features, and specific requirements of the project. We work closely with our clients to define project scope and provide realistic timelines during the initial consultation phase."
+    "question": "Do you use WordPress?",
+    "answer": "We focus on **custom-coded solutions** for better performance/scalability. For CMS needs, we recommend headless options like Strapi."
   },
   {
-    "question": "What is Veevity's process for starting a new project?",
-    "answer": "Our process typically begins with an initial consultation to understand your vision and requirements. This is followed by detailed planning, design, development, rigorous testing, and finally, deployment and ongoing support. We ensure transparent communication at every stage."
+    "question": "How much does a website cost?",
+    "answer": "Pricing depends on complexity:\n\n- Basic site: **$X-$Y** (3-5 days)\n- Web app: **$Y-$Z** (2+ weeks)\n\n*We’ll provide a detailed quote after discussing your requirements.*"
   },
   {
-    "question": "How can I get a quote for a project with Veevity?",
-    "answer": "You can request a free quote by visiting the 'Contact Us' section on our website, filling out our inquiry form. Please provide as much detail as possible about your project for an accurate estimate."
+    "question": "Do you offer payment plans?",
+    "answer": "Yes! We split payments into **milestones** (e.g., 30% upfront, 40% on delivery, 30% post-launch). Startups may qualify for extended terms."
+  },
+  {
+    "question": "What’s your development process?",
+    "answer": "1. **Discovery Call** (Free)\n2. **Planning & Quote**\n3. **Design Approval**\n4. **Development** (Agile sprints)\n5. **Testing & Revisions**\n6. **Launch & Support**"
+  },
+  {
+    "question": "How long does an MVP take?",
+    "answer": "Typically **4-8 weeks**, depending on features. We prioritize core functionality to validate your idea quickly."
+  },
+  {
+    "question": "Can you train a chatbot on our data?",
+    "answer": "Absolutely! We’ll train it on your FAQs, documents, or API data—ensuring **accurate, on-brand responses** (like this chatbot!)."
+  },
+  {
+    "question": "Do you provide post-launch support?",
+    "answer": "Yes! We offer **monthly maintenance plans** covering:\n- Bug fixes\n- Security updates\n- Feature enhancements\n- 24/7 emergency support (+$)"
+  },
+  {
+    "question": "How do I contact your team?",
+    "answer": "📧 Email: **hello@veevity.com**\n📞 Phone: **+1 (XXX) XXX-XXXX**\n📍 Location: **[Your City, Country]**\n\n*We respond within 24 hours.*"
   }
 ]
