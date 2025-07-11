@@ -49,6 +49,12 @@ export default function Chatbot() {
     };
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter' && !isGenerating) {
+      sendMessage();
+    }
+  };
+
   const scrollToBottom = () => {
     if (bottomRef.current) {
       bottomRef.current.scrollIntoView({ behavior: 'smooth', block: 'end' });
@@ -62,7 +68,7 @@ export default function Chatbot() {
   return (
     <Popover open={isOpen} onOpenChange={setIsOpen}>
       <PopoverTrigger asChild>
-        <button className="fixed flex border-2 justify-center items-center bottom-4 right-4 md:bottom-8 md:right-8 shadow-[0px_0px_31px_0px_#47b6ff] h-13 w-13 z-50 cursor-pointer rounded-full">
+        <button className="fixed flex border-2 justify-center items-center bg-black bottom-4 right-4 md:bottom-8 md:right-8 shadow-[0px_0px_31px_0px_#47b6ff] h-13 w-13 z-40 cursor-pointer rounded-full">
           <ShineBorder borderWidth={4} shineColor="#47b6ff" />
           <AnimatePresence mode="wait">
             {isOpen ? (
@@ -114,6 +120,7 @@ export default function Chatbot() {
             autoFocus
             ref={inputRef}
             readOnly={isGenerating}
+            onKeyDown={handleKeyDown}
             value={userInput}
             onChange={(e) => setUserInput(e.target.value)}
             className="flex-1 rounded-2xl h-9 outline-1 focus:outline-1 px-3 focus:border-purple-500 focus:ring-purple-500 placeholder:text-sm"

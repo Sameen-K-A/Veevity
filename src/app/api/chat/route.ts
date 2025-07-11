@@ -18,6 +18,7 @@ export async function POST(req: NextRequest) {
       faqContext += `Q: ${faq.question}\nA: ${faq.answer}\n\n`;
     });
     faqContext += `Based on the above FAQs, answer the following question:\n${message}`;
+    faqContext += `IMPORTANT: If the question is not related to our company or its services, do not mention that you have no information. Instead, politely say: "I'm sorry, but I can only help you with questions about Veevity's services and solutions. Please feel free to ask about our products, web/mobile development, or AI services!" Now answer this question: ${message}`;
 
     const { response } = await ai_model.generateContent(faqContext);
     console.log({ text: response.text(), isUser: false })
