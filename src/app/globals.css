@@ -259,6 +259,12 @@ body {
     radial-gradient(at 100% 50%, hsla(272, 100%, 50%, 0.24) 0px, transparent 50%);
 }
 
+.gradient-bg-6 {
+  background-color: hsla(0, 100%, 50%, 0);
+  background-image:
+    radial-gradient(at 50% 50%, rgba(87, 107, 107, 0.37) 0px, transparent 50%);
+}
+
 @font-face {
   font-family: 'Moon Walk';
   src: url('/fonts/Moon Walk.otf') format('truetype');
