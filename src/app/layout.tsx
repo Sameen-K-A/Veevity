@@ -22,6 +22,7 @@ export default function RootLayout({
           {children}
         </main>
         <Chatbot />
+        <div className="w-full h-[0.5px] bg-gradient-to-r from-transparent via-white/30 to-transparent" />
         <Footer />
       </body>
     </html>

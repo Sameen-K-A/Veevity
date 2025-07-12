@@ -25,7 +25,7 @@ export function MessageSection({ messages, bottomRef, sendMessage, isGenerating 
               <div
                 className={`p-2 rounded-2xl max-w-[85%] text-sm ${message.isUser
                   ? "bg-gradient-to-r from-[#47b6ff] to-[#007acc] text-white rounded-br-md"
-                  : "bg-white text-black border rounded-bl-md"
+                  : "bg-black/50 border rounded-bl-md"
                   }`}
               >
                 <ReactMarkdown

@@ -9,7 +9,7 @@ const TechCard = ({ icon: Icon, name }: { icon: FC<{ size?: number }>; name: str
   return (
     <figure
       className={cn(
-        "relative h-full w-42 sm:w-64 cursor-default overflow-hidden rounded-xl border p-4",
+        "relative h-full mr-20 w-fit cursor-default overflow-hidden rounded-xl border p-4",
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
       )}
@@ -27,7 +27,7 @@ const TechCard = ({ icon: Icon, name }: { icon: FC<{ size?: number }>; name: str
 export function TechnologyMarqee() {
   return (
     <FadeInOnView>
-      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden py-10">
+      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden pt-40 pb-20">
         <Marquee className="[--duration:25s]">
           {techStack.map((tech) => (
             <TechCard key={tech.name} icon={tech.icon} name={tech.name} />

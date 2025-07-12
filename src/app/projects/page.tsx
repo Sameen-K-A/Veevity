@@ -10,7 +10,6 @@ export default function Home() {
         <Spinner />
       </div>
       <ProjectSection />
-      <div className="w-full h-[0.5px] bg-gradient-to-r from-transparent via-white/30 to-transparent" />
     </div>
   );
 };
