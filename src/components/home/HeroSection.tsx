@@ -13,7 +13,7 @@ export default function HeroSection() {
       <div className="absolute w-full z-1 bottom-0 bg-gradient-to-t from-black via-black to-transparent">
         <FadeInOnView duration={3}>
           <div className="flex flex-col items-center pb-28 md:pb-10">
-            <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">You&rsquo;ll share your</span>
+            <span className="mb-2 pb-1 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">You&rsquo;ll share your</span>
             <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">vision.</span>
             <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">We&rsquo;ll make it</span>
             <span className="mb-2 bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-4xl sm:text-5xl md:text-6xl font-bold leading-none text-transparent">real.</span>

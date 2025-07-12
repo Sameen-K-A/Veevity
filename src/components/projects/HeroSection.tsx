@@ -9,7 +9,7 @@ export default function ProjectsHero() {
       <div className="flex flex-col items-center justify-center z-[1] text-center max-w-xl mx-auto">
         <FadeInOnView>
           <div className="w-full flex justify-center">
-            <h3 className="py-5 text-center bg-gradient-to-r from-white to-gray-300/60 bg-clip-text w-fit text-5xl sm:text-6xl md:text-7xl font-bold leading-none text-transparent">
+            <h3 className="py-5 text-center bg-gradient-to-r from-[#65dbff] to-white bg-clip-text w-fit text-5xl sm:text-6xl md:text-7xl font-bold leading-none text-transparent">
               Our Latest <br />
               Innovations
             </h3>

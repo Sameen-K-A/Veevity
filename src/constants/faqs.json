@@ -1,62 +1,122 @@
 [
   {
-    "question": "Hello, Hy, Hi, hlo",
+    "question": "Hello, Hy, Hi, hlo, Hey, Greetings",
     "answer": "Hi there! 👋 Welcome to Veevity. I'm your AI assistant here to help you learn about our SaaS, web/mobile apps, and AI solutions. How can I assist you today?"
   },
   {
-    "question": "Good morning",
+    "question": "Good morning, Morning, Gm",
     "answer": "Good morning! ☀️ Ready to explore how Veevity can transform your business digitally? Ask me anything!"
   },
   {
-    "question": "What does Veevity do?",
+    "question": "Good afternoon, Afternoon, Ga",
+    "answer": "Good afternoon! 🌞 How can Veevity help you with your digital transformation today?"
+  },
+  {
+    "question": "Good evening, Evening, Ge",
+    "answer": "Good evening! 🌙 Still hard at work? Let me know how I can assist with your project needs."
+  },
+  {
+    "question": "Who are you?, What is this?, Identify yourself",
+    "answer": "I'm Veevity's AI assistant, here to provide instant answers about our digital solutions. Think of me as your 24/7 guide to our services, pricing, and expertise."
+  },
+  {
+    "question": "What does Veevity do?, Tell me about Veevity, Company overview",
     "answer": "We build **custom digital solutions** including SaaS platforms, web/mobile apps, AI chatbots, and MVPs. Unlike typical agencies, we also create our own products—so we deeply understand founders' pain points."
   },
   {
-    "question": "What industries do you serve?",
-    "answer": "We work **across all sectors**—startups, e-commerce, healthcare, fintech, and more. Our solutions adapt to your industry needs."
+    "question": "What services do you offer?, What do you provide, Your offerings",
+    "answer": "Our core services:\n\n- **Custom SaaS Development** (B2B/B2C)\n- **Web Apps** (MERN/Python)\n- **Mobile Apps** (Flutter for iOS/Android)\n- **AI Chatbots** (FAQ-focused like me!)\n- **SEO** (Technical + Content)\n- **MVP Development** (Agile, rapid launch)\n- **UI/UX Design** (Figma)\n- **Cloud Migration** (AWS/Azure)"
   },
   {
-    "question": "What services do you offer?",
-    "answer": "Our core services:\n\n- **Custom SaaS Development** (B2B/B2C)\n- **Web Apps** (MERN/Python)\n- **Mobile Apps** (Flutter for iOS/Android)\n- **AI Chatbots** (FAQ-focused like me!)\n- **SEO** (Technical + Content)\n- **MVP Development** (Agile, rapid launch)"
+    "question": "Do you build e-commerce websites?, Online store development, Shopping sites",
+    "answer": "Yes! We develop **custom e-commerce platforms** with:\n- Payment gateways (Stripe/PayPal/Razorpay)\n- Inventory management\n- SEO optimization\n- Custom dashboards\nNo template limitations – we build exactly what your business needs."
   },
   {
-    "question": "Do you build e-commerce websites?",
-    "answer": "Yes! We develop **custom e-commerce platforms** with payment gateways (Stripe/PayPal), inventory management, and SEO optimization—no template limitations."
+    "question": "Can you make mobile apps?, iOS/Android development, App creation",
+    "answer": "Absolutely! We specialize in **cross-platform mobile apps** using Flutter, which works on both iOS and Android from a single codebase."
   },
   {
-    "question": "What tech stack do you use?",
-    "answer": "**Web**: MERN (MongoDB, Express, React, Node.js) + Python/Django\n**Mobile**: Flutter (cross-platform)\n**AI**: Gemini/OpenAI for chatbots\n**Cloud**: AWS/Azure deployments"
+    "question": "Do you do SEO?, Search engine optimization, Website ranking",
+    "answer": "Yes! Our **full-spectrum SEO** includes:\n\n- Technical SEO audits\n- Keyword strategy\n- Content optimization\n- Backlink building\n- Local SEO\n\nWe've helped clients achieve 3-5x more organic traffic in 6 months."
   },
   {
-    "question": "Do you use WordPress?",
-    "answer": "We focus on **custom-coded solutions** for better performance/scalability. For CMS needs, we recommend headless options like Strapi."
+    "question": "Can you train a chatbot on our data?, AI training, Custom chatbot",
+    "answer": "Absolutely! We’ll train it on your:\n- FAQs\n- Documentation\n- API data\n- Product manuals\n\nEnsuring **accurate, on-brand responses** (like this chatbot!). Typical training takes 2-4 weeks depending on data complexity."
   },
   {
-    "question": "How much does a website cost?",
-    "answer": "Pricing depends on complexity:\n\n- Basic site: **$X-$Y** (3-5 days)\n- Web app: **$Y-$Z** (2+ weeks)\n\n*We’ll provide a detailed quote after discussing your requirements.*"
+    "question": "Do you offer UI/UX design?, Interface design, User experience",
+    "answer": "Yes! Our design process includes:\n\n1. User research\n2. Wireframing\n3. Prototyping (Figma)\n4. Usability testing\n5. Design system creation\n\nWe focus on **conversion-optimized** interfaces."
   },
   {
-    "question": "Do you offer payment plans?",
-    "answer": "Yes! We split payments into **milestones** (e.g., 30% upfront, 40% on delivery, 30% post-launch). Startups may qualify for extended terms."
+    "question": "What’s your development process?, Workflow, How you work",
+    "answer": "Our 6-phase process:\n\n1. **Discovery** (Free consultation)\n2. **Planning** (Requirements doc + quote)\n3. **Design** (Wireframes → High-fidelity mockups)\n4. **Development** (2-week Agile sprints)\n5. **Testing** (QA + User testing)\n6. **Launch & Support** (Post-launch monitoring)"
   },
   {
-    "question": "What’s your development process?",
-    "answer": "1. **Discovery Call** (Free)\n2. **Planning & Quote**\n3. **Design Approval**\n4. **Development** (Agile sprints)\n5. **Testing & Revisions**\n6. **Launch & Support**"
+    "question": "How long does an MVP take?, MVP timeline, Time to market",
+    "answer": "Typically **4-8 weeks** for Phase 1 MVP:\n\n- Week 1: Planning & design\n- Weeks 2-5: Core feature development\n- Week 6: Testing\n- Week 7: Launch preparation\n- Week 8: Soft launch & feedback collection"
   },
   {
-    "question": "How long does an MVP take?",
-    "answer": "Typically **4-8 weeks**, depending on features. We prioritize core functionality to validate your idea quickly."
+    "question": "Who will work on my project?, Team structure, Your developers",
+    "answer": "Dedicated team per project:\n\n- 1 Project Manager\n- 2-3 Developers (frontend/backend)\n- 1 QA Engineer\n- 1 Designer (if needed)\n\nYou'll have direct access to the team via Phone/email with daily/weekly updates."
   },
   {
-    "question": "Can you train a chatbot on our data?",
-    "answer": "Absolutely! We’ll train it on your FAQs, documents, or API data—ensuring **accurate, on-brand responses** (like this chatbot!)."
+    "question": "How do you handle revisions?, Change requests, Modifications",
+    "answer": "Our flexible approach:\n\n- Minor changes: Included in original quote\n- Major new features: Priced separately\n- Post-launch changes: Billable at hourly rates or via maintenance plan\n\nAll scope changes documented in shared change logs."
   },
   {
-    "question": "Do you provide post-launch support?",
-    "answer": "Yes! We offer **monthly maintenance plans** covering:\n- Bug fixes\n- Security updates\n- Feature enhancements\n- 24/7 emergency support (+$)"
+    "question": "What tech stack do you use?, Technologies, Programming languages",
+    "answer": "**Core Stack**:\n\n- **Frontend**: React.js/Next.js, Flutter\n- **Backend**: Node.js, Python/Django\n- **Mobile**: Flutter (iOS/Android)\n- **AI**: Gemini/OpenAI\n- **Database**: MongoDB, PostgreSQL\n- **Cloud**: AWS, Vercel\n- **DevOps**: Docker, Kubernetes, CI/CD pipelines"
   },
   {
-    "question": "How do I contact your team?",
-    "answer": "📧 Email: **hello@veevity.com**\n📞 Phone: **+1 (XXX) XXX-XXXX**\n📍 Location: **[Your City, Country]**\n\n*We respond within 24 hours.*"
+    "question": "Can you work with our existing codebase?, Legacy systems, Code migration",
+    "answer": "Yes! We regularly:\n\n- Modernize legacy systems\n- Refactor outdated code\n- Migrate between frameworks\n\nJust share your repo access (GitHub/GitLab) and we'll audit it for free."
+  },
+  {
+    "question": "Do you provide API documentation?, API specs, Developer docs",
+    "answer": "Comprehensive docs included with every project:\n\n- **Swagger/OpenAPI** specs\n- **Postman** collections\n- **Code samples** in 3+ languages\n- **Rate limiting** guidelines\n\nWe also offer **developer onboarding sessions** for your team."
+  },
+  {
+    "question": "How do I contact your team?, Support contact, Get in touch",
+    "answer": "Multiple ways to reach us:\n\n📧 **Email**: sameensameen60@gmail.com (response <24 hrs)\n📞 **Phone**: +91 95627 18577 (9AM-5PM UTC+05:30)\n💬 **Live Chat**: On our website\n\nFor urgent matters, text/call CTO at: +91 95627 18577"
+  },
+  {
+    "question": "Do you have a portfolio?, Case studies, Past work",
+    "answer": "View our portfolio at:\n\n🌐 **https://veevity.vercel.app**\n\nIncludes:\n- SaaS case studies\n- Mobile app demos\n- Client testimonials\n- ROI metrics from past projects\n\nCan share NDA-protected samples after signing."
+  },
+  {
+    "question": "Where are you located?, Physical office, Headquarters",
+    "answer": "We are a Kochi, Kerala based company, but we serve clients globally with remote development teams across multiple time zones."
+  },
+  {
+    "question": "How much does a website cost?, Website pricing, Cost of web development",
+    "answer": "The cost depends on the requirements of your application. Connect with our team to discuss your ideas and get an approximate cost."
+  },
+  {
+    "question": "Mobile app cost?, App development pricing, How much for an app",
+    "answer": "The cost depends on the requirements of your application. Connect with our team to discuss your ideas and get an approximate cost."
+  },
+  {
+    "question": "Do you offer payment plans?, Installments, Milestone payments",
+    "answer": "The cost depends on the requirements of your application. Connect with our team to discuss your ideas and get an approximate cost."
+  },
+  {
+    "question": "Hourly rates?, Pay by hour, Time and materials",
+    "answer": "The cost depends on the requirements of your application. Connect with our team to discuss your ideas and get an approximate cost."
+  },
+  {
+    "question": "Any discounts?, Promotions, Special offers",
+    "answer": "The cost depends on the requirements of your application. Connect with our team to discuss your ideas and get an approximate cost."
+  },
+  {
+    "question": "Do you use WordPress?, CMS development, WordPress sites",
+    "answer": "No, we only provide custom code-based projects for better performance and scalability."
+  },
+  {
+    "question": "Do you provide post-launch support?, Maintenance, Ongoing help",
+    "answer": "Yes, we provide post-launch support. The cost depends on the updates or changes required for your application."
+  },
+  {
+    "question": "Are you hiring?, Careers, Job openings",
+    "answer": "We're hiring candidates who are interested to learn more about AI and new technologies, with good communication skills, team leadership qualities, and a self-learning attitude."
   }
 ]

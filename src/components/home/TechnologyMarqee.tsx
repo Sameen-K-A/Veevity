@@ -27,7 +27,7 @@ const TechCard = ({ icon: Icon, name }: { icon: FC<{ size?: number }>; name: str
 export function TechnologyMarqee() {
   return (
     <FadeInOnView>
-      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden pt-40 pb-20">
+      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden pt-30">
         <Marquee className="[--duration:25s]">
           {techStack.map((tech) => (
             <TechCard key={tech.name} icon={tech.icon} name={tech.name} />
